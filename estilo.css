@@ -1,0 +1,102 @@
+
+body {
+    background-color: #060606;
+    background-image: url(lua.png);
+    background-repeat: no-repeat;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    margin-top: auto;
+}
+
+
+#banner {
+	background-color: rgba(0, 0, 0, .5);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+    
+}
+
+#lado_esquerdo h1 {
+	float: left;
+	margin: 0;
+    top: 50px;
+    position: relative;
+    background-image: linear-gradient(45deg, white, rgb(58, 56, 58), rgb(136, 128, 130));
+    border-radius: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+
+}
+
+#banner nav {
+	float: right;
+	position: relative;
+	top: 30px;
+}
+
+#banner ul {
+	margin: 0;
+}
+
+#banner nav ul li {
+	display: inline-block;
+	width: 100px;
+    border-radius: 23px;
+    background-image: linear-gradient(45deg, white, rgb(58, 56, 58), rgb(136, 128, 130));
+    padding: 10px;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+ 
+#lado_direito img {
+    width: 1000px;
+    height: 1000px;
+    margin: 0;
+    position:relative;
+    left: 50px;
+    top: -600px;
+    float: right;
+}
+#lado_esquerdo img {
+    width: 900px;
+    height: 900px;
+    z-index: 2;
+}
+
+#copyright img {
+        position: relative;       
+        width: 1000px;
+        height: 1000px;
+        margin-bottom: 0;
+        top: -750px;
+        float: right;
+        right: 300px;
+
+}
+
+
+#nuvens {
+    position: absolute;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background: url(nuvens.png); 
+    animation: nuvens 250s linear infinite;
+    z-index: 1;
+}
+
+
+
+
+
+@keyframes nuvens {
+    0% {
+        background-position: 10px;
+    }
+    100% {
+        background-position: 5555px;
+    }
+}
